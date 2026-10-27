@@ -28,7 +28,7 @@
     "prettier": "^3.9.10"
   },
   "lint-staged": {
-    "*.js": "eslint --fix",
-    "*.{js,css,html,md}": "prettier --write"
+    "*.js": "eslint",
+    "*.{js,css,html,md}": "prettier"
   }
 }
